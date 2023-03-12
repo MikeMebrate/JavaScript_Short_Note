@@ -121,7 +121,7 @@ The `onmousedown`, `onmouseup`, and `onclick` events are all parts of a mous
 
 # Let vs Var vs Const
 
-![Untitled](Java%20Script%20780fa1f4dbf14ed7ab22fac0ed918491/Untitled.png)
+![Untitled](Untitled.png)
 
 - JSON
 - Storage: Session and Local — How do we store JSON
