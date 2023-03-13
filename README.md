@@ -121,12 +121,77 @@ The `onmousedown`, `onmouseup`, and `onclick` events are all parts of a mous
 
 # Let vs Var vs Const
 
-![Untitled](Untitled.png)
+![Untitled](Java%20Script%20780fa1f4dbf14ed7ab22fac0ed918491/Untitled.png)
 
-- JSON
+## JSON
+
+JSON stands for JavaScript Object Notation. It is a lightweight format for storing and transporting data, often used when data is sent from a server to a web page. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. JSON is easy for humans to read and write, and easy for machines to parse and generate.
+
+Mainly used for 
+
+- Data Representation format
+- Commonly Used for APIs and Configs
+- Lightweight and Easy to Read/Write
+- Integrates easily with most languges
+
+Here's an example of a JSON object:
+
+```
+{
+   "name": "John",
+   "age": 30,
+   "city": "New York"
+}
+
+```
+
+```jsx
+const users = {
+    Alex: {
+        email: 'alex@gmail.com',
+        skills: ['HTML', 'CSS', 'JavaSCript'],
+        age: 20,
+        isLoggedIn: false,
+        points: 30
+    },
+    Asab: {
+        email: 'asab@asab.com',
+        skills: [
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'Redux',
+            'MangoDB',
+            'Express',
+            'React',
+            'Node'
+        ],
+        age: 25,
+        isLoggedIn: false,
+        points: 50
+    },
+    Brook: {
+        email: 'brook@brrok.com',
+        skill: ['HTML','CSS','JavScript', 'React', 'Reduc'],
+        age: 22,
+        isLoggedIn: true,
+        points: 34
+    }
+}
+const myJSON = JSON.stringify(users); //First Change into string because consle only accept String 
+// JSON.parse()    --> JSON to Object
+localStorage.setItem("Mike", myJSON);
+```
+
+This JSON object describes a person named John who is 30 years old and lives in New York.
+
 - Storage: Session and Local — How do we store JSON
+
+```jsx
+sessionStorage.setItem("Kal",myJSON);
+```
+
 - DOM - Document Object Model
-- Event
 
 # **JS HTML**
 
